@@ -1,0 +1,221 @@
+DAY 2 --> will start class @ 8:05 AM
+
+
+Recap:
+
+1) What is Devops ?
+
+idea --> phonpe
+
+2) linux 
+hardware, kernel,shell,applications
+
+
+Today Agenda :
+1) WSL - windows subsytem for linux  --> cover
+2) Mobaxterm and putty (AWS,AZURE)
+3) vagrant and vmbox
+
+linux commands :
+-> list (ls)
+   ls -l
+   ls -lt
+ scenario : where you whant to check the contents of dir/folder
+-> touch sri.txt 
+
+--> mkdir monday
+
+--> cd monday 
+
+-->  pwd
+
+--> rmdir devops
+    rm -r monday
+    rm filename
+
+-->head 
+
+--> vi filename, insert mode --> i
+                to save   --> ESC + :wq or ESC + :wq!
+                save without changes --> ESC + :q!
+
+--> cat filename
+
+ 1  clear
+    2  ls
+    3  touch hello.txt
+    4  ls
+    5  touch monday.txt
+    6  ls
+    7  ls -l
+    8  date
+    9  ls -lt
+   10  ls -lrt
+   11  touch time.txt
+   12  clear
+   13  ls
+   14  ls -l
+   15  ls -lt
+   16  ls -lrt
+   17  clear
+   18  touch sri.txt hi.txt devops.txt
+   19  ls
+   20  ls -l
+   21  ls -lt
+   22  clear
+   23  ls -lt
+   24  ls -lrt
+   25  clear
+   26  ls -lt
+   27  ls -lt | head -n2
+   28  ls -lt | head -n 2
+   29  ls -lrt | tail -n2
+   30  ls -lrt | head -n2
+   31  clear
+   32  ls -lt | head - 2
+   33  ls -lt | head -2
+   34  clear
+   35*
+   36  ls -lrt | tail -n2
+   37  ls -lrt | tail -n3
+   38  ls -lt | head -n3
+   39  clear
+   40  ls -lrt | tail -n15
+   41  ls -lrt | tail -n4
+   42  mkdir monday
+   43  ls -l
+   44  ls
+   45  clear
+   46  ls
+   47  ls -l
+   48  cd monday
+   49  cd ..
+   50  cd monday/
+   51  mkdir devops
+   52  ls
+   53  cd devops/
+   54  clear
+   55  pwd
+   56  cd ../..
+   57  pwd
+   58  cd monday/devops/
+   59  cd devops/
+   60  cd ..
+   61  cd /
+   62  pwd
+   63  cd /home/sri
+   64  ls
+   65  clear
+   66  ls
+   67  rmdir monday
+   68  cd monday/
+   69  ls
+   70  cd devops/
+   71  ls
+   72  cd ..
+   73  rmdir devops
+   74  ls
+   75  touch f1 f2 f3 f4 f5
+   76  ls
+   77  cd ..
+   78  clear
+   79  cd monday/
+   80  ls
+   81  rm f5
+   82  ls
+   83  cd ..
+   84  ls
+   85  rm -r monday
+   86  ls
+   87  vi display.txt
+   88  cat display.txt
+   89  vi display.txt
+   90  cat display.txt
+   91  clear
+   92  ls
+   93  head -n 2 display.txt
+   94  tail -n 2 display.txt
+   95  tail -n 5 display.txt
+   96  ls
+   97  vi applicaton.txt
+   98  ls
+   99  vi applicaton.txt
+  100  clear
+  101  history
+
+pwd  /home/sri i'm standing at source location 
+ --> cp <sourcepath of file> <targetpath>
+     cp application.txt application/apt
+
+--> mv  <sourcepath of file> <targetpath>
+    mv application.txt servers/apps
+
+i will stand at target location 
+
+cp application/apt/applicaton.txt .
+
+---> wc display.txt
+ 17 124 873 display.txt
+
+count of lines, word count , character count 
+
+user ?
+admin , 
+1)root account --> superuser/system administrator
+2) user accounts 
+
+- applications get stops , P
+service file --> user 
+
+user ?
+x 
+group ? devopsg
+
+useradd
+usermod
+userdel
+groupadd
+groupmod
+groupdel
+ 
+what is the command to get latest created only 2 files ?
+user & groups
+
+file permissions
+cron jobs
+
+
+Recap :
+wsl--> linux
+aws instance /
+mobaxterm --> instance
+ task 1:
+head | ls 
+tail
+
+__________________
+sri@LAPTOP-4UGLIQ9H:~$ ls -lrt | tail -n3
+-rw-r--r-- 1 sri sri 0 Apr 15 09:22 sri.txt
+-rw-r--r-- 1 sri sri 0 Apr 15 09:22 hi.txt
+-rw-r--r-- 1 sri sri 0 Apr 15 09:22 devops.txt
+sri@LAPTOP-4UGLIQ9H:~$ ls -lt | head -n3
+total 0
+-rw-r--r-- 1 sri sri 0 Apr 15 09:22 devops.txt
+-rw-r--r-- 1 sri sri 0 Apr 15 09:22 hi.txt
+
+_______________________________________
+ pwd
+/home/sri/monday/devops
+
+_______________________________________
+
+
+
+
+
+
+
+
+
+
+
